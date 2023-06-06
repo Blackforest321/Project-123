@@ -1,0 +1,45 @@
+body{
+    width:100%;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    
+}
+
+.well
+{
+    font-size: 10px;
+}
+
+.btn-primary
+{
+    font-size: 20px;
+    box-shadow: 5px 5px 38px palevioletred;
+}
+
+canvas{
+    
+    box-shadow: 5px 5px 38px palevioletred;
+    animation-name: "example";
+    background-color: white;
+}
+
+@keyframes example{
+ from{border: solid 5px white;}
+ to{border: solid 5px pink;}
+}
+
+input{
+    font-size: 20px;
+}
+
+.copyright_footer
+{
+    position: fixed;
+    line-height: 2;
+    background-color: blue;
+    bottom:0;
+    color: aliceblue;
+    font-size: 20px;
+    width: 100%;
+}
